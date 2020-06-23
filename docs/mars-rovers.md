@@ -21,7 +21,7 @@ For a given plateau and set of rovers (each with a starting position and directi
 
 You've inherited some working object-oriented code from the prototype team, but the current project lead is curious to try functional programming and see what benefits it might bring to the application.
 
-The existing OOP code is here (TODO).
+The existing OOP code is in ../src/katas/mars_rovers/oop.clj.
 
 ## Tasks
 
