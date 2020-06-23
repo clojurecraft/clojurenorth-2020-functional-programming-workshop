@@ -52,7 +52,7 @@ Can refactoring to make the code more functionally pure help?
   Try to write code as you would expect from your coworkers on a non-trivial production project.
 
   The starter code is at ../src/katas/birthday/core.clj
-  The non-existant test code is at ../test/katas/test/birthday.clj
+  The non-existent test code is at ../test/katas/test/birthday.clj
 
 3. When you’re done, as we did at the start, take a moment to go through your solution and identify:
   - places where state is defined
