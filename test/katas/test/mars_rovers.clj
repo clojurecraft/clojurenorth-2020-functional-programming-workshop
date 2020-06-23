@@ -23,15 +23,15 @@
     (is (= {:rovers [{:position [1 3 :N]}]}
            (mars-rovers/go!
              {:plateau [5 5]
-              :rovers [{:position [1 2 :N]}
-                       {:instructions [:M]}]}))))
+              :rovers [{:position [1 2 :N]
+                        :instructions [:M]}]}))))
 
   (testing "single rotation"
     (is (= {:rovers [{:position [1 2 :W]}]}
            (mars-rovers/go!
              {:plateau [5 5]
-              :rovers [{:position [1 2 :N]}
-                       {:instructions [:L]}]}))))
+              :rovers [{:position [1 2 :N]
+                        :instructions [:L]}]}))))
 
   (testing "multiple commands"
     (is (= {:rovers [{:position [5 1 :E]}]}
