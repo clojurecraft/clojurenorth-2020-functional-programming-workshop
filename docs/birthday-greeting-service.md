@@ -43,7 +43,7 @@ Can refactoring to make the code more functionally pure help?
    - places where other side-effects are triggered
    - which functions are pure and which aren’t
 
-  It might be useful to copy the code to, say, Google Docs and highlight the above categories using different colors.
+  It might be useful to copy the code to, say, Google Docs and highlight the above categories using different colours.
 
 2. Your main task is to
    - refactor the existing code to make it testable, and,
