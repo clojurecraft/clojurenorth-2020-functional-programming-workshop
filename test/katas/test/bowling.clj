@@ -15,7 +15,7 @@
   (testing "spare in the first frame"
     (is (= 16 (bowling/total-score [5 5 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]))))
   (testing "spare in the second frame"
-    (is (= 16 (bowling/total-score [0 10 3 0 0 0 0 0 0 0 0]))))
+    (is (= 16 (bowling/total-score [0 0 0 10 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]))))
   (testing "strike"
     (is (= 24 (bowling/total-score [10 3 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]))))
   (testing "9 pins each round"
