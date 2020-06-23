@@ -2,6 +2,7 @@
   (:require
    [clojure.data.csv :as csv]
    [clojure.java.io :as io]
+   [clojure.string :as string]
    [postal.core :as postal])
   (:import
    (java.time LocalDate)
@@ -14,6 +15,10 @@
        (csv/read-csv)
        rest
        (filter (fn [row]
+                 (string/ends-with?
+                   (row 2)
+                   (.format (LocalDate/now) (DateTimeFormatter/ofPattern "MM/dd")))))
+       (map (fn [row]
                  (postal/send-message
                   {:host "localhost"
                    :user "azurediamond"
@@ -28,4 +33,5 @@
                                         (LocalDate/parse (row 2)
                                                          (DateTimeFormatter/ofPattern "yyyy/MM/dd"))
                                         (LocalDate/now))
-                              " already!")})))))
+                              " already!")})))
+       doall))
