@@ -11,7 +11,7 @@ In order to control a rover, NASA sends a list of commands, such as: `M M R M` (
 
 A rover's position and location are represented by a combination of x and y co-ordinates and a letter representing one of the four cardinal compass points, for example: `[0 0 :N]`.
 
-A plateau is rectangular and defined by its top-right coordinates (ex. [5 4]), meaning, 5-wide, 4-high. [0 0] can be assumed to be he lower-right coordinate.
+A plateau is rectangular and defined by its top-right coordinates (ex. [5 4]), meaning, 5-wide, 4-high. [0 0] can be assumed to be the bottom-left coordinate.
 
 Rovers can coexist on a location.
 
