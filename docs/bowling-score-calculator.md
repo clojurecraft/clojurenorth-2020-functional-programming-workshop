@@ -15,9 +15,10 @@ Another explanation is available [on Wikipedia](https://en.wikipedia.org/wiki/Te
 
 ## Tasks
 
-Your task it to create a function to calculate the total score in a game of American Ten-Pin Bowling.
+Your task is to create a function to calculate the total score in a game of American Ten-Pin Bowling.
 
 In ../src/katas/bowling/core.clj, we have started you off with a function:
+
 ```clojure
 (defn total-score [rolls])
 ```
