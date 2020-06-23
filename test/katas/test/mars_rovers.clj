@@ -46,5 +46,3 @@
              {:plateau [5 5]
               :rovers [{:position [3 3 :N]
                         :instructions [:M :M :M :M :M :M :M :M :M :M :R]}]})))))
-
-

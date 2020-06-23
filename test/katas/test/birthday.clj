@@ -7,4 +7,3 @@
   (testing "sends email to everyone with birthday today"
     ;; How do we test???
     #_(greet!)))
-

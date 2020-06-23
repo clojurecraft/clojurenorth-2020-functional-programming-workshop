@@ -28,4 +28,3 @@
     (is (= 12 (bowling/total-score [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 1 0]))))
   (testing "spare in the 10th frame"
     (is (= 11 (bowling/total-score [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 1])))))
-
