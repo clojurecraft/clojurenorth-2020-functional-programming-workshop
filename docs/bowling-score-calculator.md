@@ -11,7 +11,7 @@ The rules are as follows:
   - if a bowler gets a "spare" in the last frame (the 10th frame), they get 1 bonus roll, with the number of pins knocked down added to the score of the last frame
   - if a bowler gets a "strike" in the last frame (the 10th frame), they get 2 bonus rolls, with the number of pins knocked down added to the score of the last frame
 
-Another explanation is available [on Wikpedia](https://en.wikipedia.org/wiki/Ten-pin_bowling#Scoring).
+Another explanation is available [on Wikipedia](https://en.wikipedia.org/wiki/Ten-pin_bowling#Scoring).
 
 ## Tasks
 
