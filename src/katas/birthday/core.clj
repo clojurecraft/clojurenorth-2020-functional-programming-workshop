@@ -26,6 +26,6 @@
                               "Wow, you're "
                               (.between ChronoUnit/YEARS
                                         (LocalDate/parse (row 2)
-                                                         (DateTimeFormatter/ofPattern "yyyy/mm/DD"))
+                                                         (DateTimeFormatter/ofPattern "yyyy/MM/dd"))
                                         (LocalDate/now))
                               " already!")})))))
