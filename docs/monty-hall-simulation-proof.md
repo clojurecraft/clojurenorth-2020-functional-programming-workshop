@@ -2,7 +2,7 @@
 
 ## Background
 
-The [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem) is a statistical puzzle based on the game show Let's Make a Deal.
+The [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem) is a statistical puzzle based on the game show "Let's Make a Deal".
 
 In the show, the host presents a contestant with three doors. Behind one door is a car, but behind each of the others there is a goat.  As a contestant, you pick a door. The host then opens a different door and reveals a goat. You are then given the choice of sticking with your original choice or switching to the unopened door.
 
