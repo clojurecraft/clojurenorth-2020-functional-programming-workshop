@@ -22,4 +22,6 @@ It turns out that you are twice as likely to win by switching doors than by stay
 
   b. how might you need to change your code to test that it is working correctly?
 
+3. If you’d like to have us discuss your solution and compare it to others, please add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
+
 <sup>This kata is based on [the Monty Hall Kata in the Coding Dojo Handbook](https://leanpub.com/codingdojohandbook)</sup>

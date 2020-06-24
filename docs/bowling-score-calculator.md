@@ -29,4 +29,6 @@ In [test/katas/test/bowling.clj](../test/katas/test/bowling.clj) we've provided 
 
 Try to write code as you would expect from your coworkers on a non-trivial production project.
 
+If you’d like to have us discuss your solution and compare it to others, please add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
+
 <sup>This kata is based on [UncleBob's Bowling Game Kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)</sup>

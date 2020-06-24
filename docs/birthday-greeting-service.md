@@ -61,7 +61,7 @@ Can refactoring to make the code more functionally pure help?
   - places where other side-effects are triggered
   - which functions are pure and which aren’t
 
-4. If you’d like to have us discuss your solution and compare it to others, please push it to GitHub (or other service) and add a link to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
+4. If you’d like to have us discuss your solution and compare it to others, please add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
 
 ## Bonus Tasks
 

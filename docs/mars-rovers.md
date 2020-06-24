@@ -49,6 +49,6 @@ The existing OOP code is in [src/katas/mars_rovers/oop.clj](../src/katas/mars_ro
    - places where other side-effects are triggered
    - which functions are pure and which aren’t
 
-4. If you’d like to have us discuss your solution and compare it to others, please push it to GitHub (or other service) and add a link to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
+4. If you’d like to have us discuss your solution and compare it to others, please add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
 
 <sup>This kata is based on an interview question from ThoughtWorks</sup>
