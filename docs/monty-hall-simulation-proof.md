@@ -8,7 +8,7 @@ In the show, the host presents a contestant with three doors. Behind one door is
 
 The "problem" is: what's the best strategy -- should you switch or not?
 
-It turns out that you are twice as likely to win by switching doors than by staying put (2/3 vs 1/3). This conclusion was disbelieved by many people for several years. Allegedly, Paul Erdős, a renowned mathematician, remained unconvinved until he was shown a computer simulation.
+It turns out that you are twice as likely to win by switching doors than by staying put (2/3 vs 1/3). This conclusion was disbelieved by many people for several years. Allegedly, Paul Erdős, a renowned mathematician, remained unconvinced until he was shown a computer simulation.
 
 ## Task
 
