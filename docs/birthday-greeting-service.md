@@ -13,7 +13,7 @@ Bob,builder.bob@example.com,1998/11/28
 Cathy,catherine.the.great@example.com,1729/04/29
 Donald,thedonald@example.com,1946/06/14
 ```
-(A sample is available at `resources/birthday/employees.csv`)
+(A sample is available at [resources/birthday/employees.csv](../resources/birthday/employees.csv))
 
 The email should look like:
 ```
@@ -22,7 +22,7 @@ Body:
 Happy Birthday Alice! Wow, you're 43 already!
 ```
 
-Pretty simple, right? To make it even simpler... we’ve already got it working. Take a gander at ../src/katas/birthday/core.clj .
+Pretty simple, right? To make it even simpler... we’ve already got it working. Take a gander at [src/katas/birthday/core.clj](../src/katas/birthday/core.clj).
 
 For a toy example like this, most pragmatic Clojure devs would say “it’s fine as is” -- and we agree!
 
@@ -51,8 +51,8 @@ Can refactoring to make the code more functionally pure help?
 
   Try to write code as you would expect from your coworkers on a non-trivial production project.
 
-  The starter code is at ../src/katas/birthday/core.clj
-  The non-existent test code is at ../test/katas/test/birthday.clj
+  The starter code is at [src/katas/birthday/core.clj](../src/katas/birthday/core.clj)
+  The non-existent test code is at [test/katas/test/birthday.clj](../test/katas/test/birthday.clj)
 
 3. When you’re done, as we did at the start, take a moment to go through your solution and identify:
   - places where state is defined

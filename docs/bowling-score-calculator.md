@@ -17,7 +17,7 @@ Another explanation is available [on Wikipedia](https://en.wikipedia.org/wiki/Te
 
 Your task is to create a function to calculate the total score in a game of American Ten-Pin Bowling.
 
-In ../src/katas/bowling/core.clj, we have started you off with a function:
+In [src/katas/bowling/core.clj](../src/katas/bowling/core.clj), we have started you off with a function:
 
 ```clojure
 (defn total-score [rolls])
@@ -25,7 +25,7 @@ In ../src/katas/bowling/core.clj, we have started you off with a function:
 
 The input, `rolls`, will be a vector of integers, corresponding to the pins knocked down in each roll of a game. For example: `[10 10 10 10 10 10 10 10 10 10 10 10]` for a perfect game.  You can assume that the input data is always valid.
 
-In ./test/katas/test/bowling.clj we've provided you a reasonable comprehensive test set.
+In [test/katas/test/bowling.clj](../test/katas/test/bowling.clj) we've provided you a reasonable comprehensive test set.
 
 Try to write code as you would expect from your coworkers on a non-trivial production project.
 

@@ -12,7 +12,7 @@ It turns out that you are twice as likely to win by switching doors than by stay
 
 ## Task
 
-1. Determine the best strategy in the Monty Hall problem by implementing the `simulate` function in ../src/katas/monty_hall/core.clj .  Simulate at least 1000 games using each strategy (stay-with-original-door and switch-doors) and compare the winning percentages.
+1. Determine the best strategy in the Monty Hall problem by implementing the `simulate` function in [src/katas/monty_hall/core.clj](../src/katas/monty_hall/core.clj).  Simulate at least 1000 games using each strategy (stay-with-original-door and switch-doors) and compare the winning percentages.
 
   Try to write code as you would expect from your coworkers on a non-trivial production project.
 

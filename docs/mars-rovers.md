@@ -21,7 +21,7 @@ For a given plateau and set of rovers (each with a starting position and directi
 
 You've inherited some working object-oriented code from the prototype team, but the current project lead is curious to try functional programming and see what benefits it might bring to the application.
 
-The existing OOP code is in ../src/katas/mars_rovers/oop.clj.
+The existing OOP code is in [src/katas/mars_rovers/oop.clj](../src/katas/mars_rovers/oop.clj).
 
 ## Tasks
 
@@ -36,9 +36,9 @@ The existing OOP code is in ../src/katas/mars_rovers/oop.clj.
 
 2. Reimplement the Mars Rovers functionality in Clojure.
 
-   There is some starter code at ../src/katas/mars_rovers/core.clj
+   There is some starter code at [src/katas/mars_rovers/core.clj](../src/katas/mars_rovers/core.clj)
 
-   Some tests for the main entry point are ready for you in ../test/katas/test/mars_rovers.clj
+   Some tests for the main entry point are ready for you in [test/katas/test/mars_rovers.clj](../test/katas/test/mars_rovers.clj)
 
   Try to write code as you would expect from your coworkers on a non-trivial production project.
 
