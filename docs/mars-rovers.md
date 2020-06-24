@@ -19,20 +19,20 @@ If a rover is given a command that would move it past the boundaries of a platea
 
 For a given plateau and set of rovers (each with a starting position and direction, and a set of commands), we want to know where each of the rovers will end up.
 
-You've inherited some working object-oriented code from the prototype team, but the current project lead is curious to try functional programming and see what benefits it might bring to the application.
+You've inherited some working object-oriented code from the prototype team (see [resources/mars_rovers/ruby](../resources/mars_rovers/ruby)), but the current project lead is curious to try functional programming and see what benefits it might bring to the application.
 
-The existing OOP code is in [src/katas/mars_rovers/oop.clj](../src/katas/mars_rovers/oop.clj).
+An attempt at rewriting the prototype in Clojure, but keeping it OOP, resulted in the code in [src/katas/mars_rovers/oop.clj](../src/katas/mars_rovers/oop.clj). Apparently, this isn't an "idiomatic" way to solve the problem in Clojure.
 
 ## Tasks
 
-1. Take a moment to go through the existing code and identify:
+1. Take a moment to go through the existing code (either [the Ruby version](../resources/mars_rovers/ruby) or [the Clojure version](../src/katas/mars_rovers/oop.clj) and identify:
    - places where state is defined
    - places where state is referenced
    - places where state is mutated
    - places where other side-effects are triggered
    - which functions are pure and which aren’t
 
-  It might be useful to copy the code to, say, Google Docs and highlight the above categories using different colours.
+   If you'd like, you can "Make a Copy" or download [this Google Doc](https://docs.google.com/document/d/1S22-Qk_II36Kt8HZ35Zz-0EUlldcqRwb2X1nJqd16lM/edit) and highlight the above categories using different colours.
 
 2. Reimplement the Mars Rovers functionality in Clojure.
 
