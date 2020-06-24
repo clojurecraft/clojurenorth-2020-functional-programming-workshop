@@ -15,20 +15,24 @@ Another explanation is available [on Wikipedia](https://en.wikipedia.org/wiki/Te
 
 ## Tasks
 
-Your task is to create a function to calculate the total score in a game of American Ten-Pin Bowling.
+1. Your task is to create a function to calculate the total score in a game of American Ten-Pin Bowling.
 
-In [src/katas/bowling/core.clj](../src/katas/bowling/core.clj), we have started you off with a function:
+   In [src/katas/bowling/core.clj](../src/katas/bowling/core.clj), we have started you off with a function:
 
-```clojure
-(defn total-score [rolls])
-```
+   ```clojure
+   (defn total-score [rolls])
+   ```
 
-The input, `rolls`, will be a vector of integers, corresponding to the pins knocked down in each roll of a game. For example: `[10 10 10 10 10 10 10 10 10 10 10 10]` for a perfect game.  You can assume that the input data is always valid.
+   The input, `rolls`, will be a vector of integers, corresponding to the pins knocked down in each roll of a game. For example: `[10 10 10 10 10 10 10 10 10 10 10 10]` for a perfect game.  You can assume that the input data is always valid.
 
-In [test/katas/test/bowling.clj](../test/katas/test/bowling.clj) we've provided you a reasonable comprehensive test set.
+   In [test/katas/test/bowling.clj](../test/katas/test/bowling.clj) we've provided you a reasonably-comprehensive test set.
 
-Try to write code as you would expect from your coworkers on a non-trivial production project.
+   Try to write code as you would expect from your coworkers on a non-trivial production project.
 
-If you’d like to have us discuss your solution and compare it to others, please add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
+2. If you’d like to have us discuss your solution and compare it to others, please push your code and add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
 
+<br>
+<br>
+<br>
+<hr>
 <sup>This kata is based on [UncleBob's Bowling Game Kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)</sup>

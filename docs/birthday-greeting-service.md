@@ -61,7 +61,7 @@ Can refactoring to make the code more functionally pure help?
   - places where other side-effects are triggered
   - which functions are pure and which aren’t
 
-4. If you’d like to have us discuss your solution and compare it to others, please add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
+4. If you’d like to have us discuss your solution and compare it to others, please push your code and add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
 
 ## Bonus Tasks
 
@@ -71,4 +71,8 @@ If you have the time and inclination, you can extend your solution with the foll
 
 2. In the current version, people born on February 29th miss don't get an emails on non-leap-years! They should be included in the February 28th emails (but only if the current year is not a leap-year). (With tests!)
 
+<br>
+<br>
+<br>
+<hr>
 <sup>This kata is based on [Matteo Vaccari's Birthday Greetings Kata](http://matteo.vaccari.name/blog/archives/154)</sup>

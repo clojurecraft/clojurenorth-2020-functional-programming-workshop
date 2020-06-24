@@ -40,15 +40,19 @@ An attempt at rewriting the prototype in Clojure, but keeping it OOP, resulted i
 
    Some tests for the main entry point are ready for you in [test/katas/test/mars_rovers.clj](../test/katas/test/mars_rovers.clj)
 
-  Try to write code as you would expect from your coworkers on a non-trivial production project.
+   Try to write code as you would expect from your coworkers on a non-trivial production project.
 
-3.  When you’re done, as we did at the start, take a moment to go through your solution and identify:
+3. When you’re done, as we did at the start, take a moment to go through your solution and identify:
    - places where state is defined
    - places where state is referenced
    - places where state is mutated
    - places where other side-effects are triggered
    - which functions are pure and which aren’t
 
-4. If you’d like to have us discuss your solution and compare it to others, please add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
+4. If you’d like to have us discuss your solution and compare it to others, please push your code and add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
 
+<br>
+<br>
+<br>
+<hr>
 <sup>This kata is based on an interview question from ThoughtWorks</sup>
