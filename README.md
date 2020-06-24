@@ -1,4 +1,4 @@
-# Clojure Katas - Functional Programming (ClojureNorth 2020 Workshop)
+# Clojure Katas - Functional Programming (ClojureNorth 2020)
 
 There’s more than one way to solve a problem. This workshop is an opportunity to step out of your Clojure bubble and see how other Clojure developers approach and solve programming challenges.
 
