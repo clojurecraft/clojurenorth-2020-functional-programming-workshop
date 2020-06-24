@@ -3,21 +3,21 @@
 NASA is sending a squad of robotic rovers to survey a curiously rectangular plateau on Mars.
 
 Each rover understands a limited set of commands:
- - M for move forward
- - R to rotate 90 degrees right
- - L to rotate 90 degrees left
+ - `M` for move forward
+ - `R` to rotate 90 degrees right
+ - `L` to rotate 90 degrees left
 
 In order to control a rover, NASA sends a list of commands, such as: `M M R M` (move forward, move forward, rotate right, move forward). (In Clojure, we will represent these as: `[:M :M :R :M]`)
 
 A rover's position and location are represented by a combination of x and y co-ordinates and a letter representing one of the four cardinal compass points, for example: `[0 0 :N]`.
 
-A plateau is rectangular and defined by its top-right coordinates (ex. [5 4]), meaning, 5-wide, 4-high. [0 0] can be assumed to be the bottom-left coordinate.
+A plateau is rectangular and defined by its top-right coordinates (ex. `[5 4]`), meaning, 5-wide, 4-high. `[0 0]` can be assumed to be the bottom-left coordinate.
 
 Rovers can coexist on a location.
 
 If a rover is given a command that would move it past the boundaries of a plateau, it should ignore that command.
 
-For a given plateau and set of rovers (each with a starting position and direction, and a set of commands), we want to know where the rovers will end up.
+For a given plateau and set of rovers (each with a starting position and direction, and a set of commands), we want to know where each of the rovers will end up.
 
 You've inherited some working object-oriented code from the prototype team, but the current project lead is curious to try functional programming and see what benefits it might bring to the application.
 
