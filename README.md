@@ -16,21 +16,20 @@ There will be 4 problems, but each participant will only work on 1 (or 2 if ther
  - participants submit their solutions for critique
  - review and discussion of solutions to each problem
 
+## Getting Started
+
+Fork and clone this repository, then... `lein repl`
+
+To make sure we have a somewhat even distribution of who-works-on-what, to choose your first kata, please run `(rand-nth [:birthday-greeting :mars-rovers :bowling-score :monty-hall])` from the Clojure REPL.
+
+For Clojure beginners, we recommend attempting the [Monty Hall Simulation Proof](/docs/monty-hall-simulation-proof.md).
+
+After you're done with any of the exercises, if you'd like to have them potentially reviewed in Part 2 of the workshop, add a link to your repo to [this spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
+
 ## The Katas
-
-Fork and clone this repository, then...
-
-Start with *one* of the following:
 
  - [Birthday Greeting Service](/docs/birthday-greeting-service.md)
  - [Mars Rovers](/docs/mars-rovers.md)
-
-If you have time, try *one* of the following:
-
  - [Bowling Score Calculator](/docs/bowling-score-calculator.md)
  - [Monty Hall Simulation Proof](/docs/monty-hall-simulation-proof.md)
-
-For Clojure beginners, we recommend attempting the [Bowling Score Calculator](/docs/bowling-score-calculator.md).
-
-After you're done with any of the exercises, if you'd like to have them potentially reviewed in Part 2 of the workshop, add a link to [the spreadsheet](https://docs.google.com/spreadsheets/d/1JwO53TlIj367CTodutJNvESWis0tIk4RJH8AiZoPsqs/edit?usp=sharing).
 
