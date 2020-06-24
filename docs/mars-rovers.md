@@ -25,7 +25,7 @@ An attempt at rewriting the prototype in Clojure, but keeping it OOP, resulted i
 
 ## Tasks
 
-1. Take a moment to go through the existing code (either [the Ruby version](../resources/mars_rovers/ruby) or [the Clojure version](../src/katas/mars_rovers/oop.clj) and identify:
+1. Take a moment to go through the existing code (either [the Ruby version](../resources/mars_rovers/ruby) or [the Clojure version](../src/katas/mars_rovers/oop.clj)) and identify:
    - places where state is defined
    - places where state is referenced
    - places where state is mutated
